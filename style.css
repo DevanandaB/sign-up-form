@@ -16,6 +16,13 @@ body {
     height: 100vh;
     width: 33%;
     float: left;
+    color: white;
+    text-align: center;
+}
+.image-container p {
+    padding-top: 600px;
+    font-size: 12px;
+
 }
 .sign-up p{
     position: relative;
