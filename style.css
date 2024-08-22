@@ -12,7 +12,7 @@ body {
     right: 0;
 }
 .image-container {    
-    background-image: url("https://plus.unsplash.com/premium_photo-1675731118517-c85b8cd0904c?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://s1.1zoom.me/b7745/254/Raspberry_Many_Texture_Closeup_Berry_536512_600x800.jpg");
     height: 100vh;
     width: 33%;
     float: left;
@@ -32,4 +32,11 @@ body {
     max-width: 1300px;
     margin: 4px;
     font-family:  Arial, sans-serif;
+}
+.sign-up form {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    margin-top: 100px;
 }

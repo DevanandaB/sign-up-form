@@ -20,11 +20,51 @@
             </p>
             <p>You <i>know</i> what to do.</p>
 
-            <form>
+            <form action="#" method="get"> 
+                <p>Let's do this</p>
 
+                <section>
+                    <div style="float: left; margin: 5px 50px;">
+                        <label for="first-name">First Name:</label>
+                        <input id="first-name" type="text" placeholder="Eg: Bob">
+                    </div>
+                    <div style="float: left; margin: 0px 80px;">
+                        <label for="last-name">Last Name:</label>
+                        <input id="last-name" type="text">
+                    </div>
+                    <br>
+                </section>
+                
+                <section>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="Bob@mail.com">
+                    </div>
+                    <div>
+                        <label for="phone-number">Phone Number:</label>
+                        <input id="phone-number" type="number">
+                    </div>
+                    <br>
+                </section>
+
+                <section>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password">
+                    </div>
+                    <div>
+                        <label for="confirm-password">Confirm password:</label>
+                        <input id="confirm-password" type="password">
+                    </div>
+                </section>
             </form>
-        </div>
 
+            <div>
+                <button type="submit">Create account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+            
+        </div>
     </div>
     
 </body>
