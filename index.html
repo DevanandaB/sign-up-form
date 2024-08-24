@@ -26,11 +26,11 @@
                     <section>
                         <div class="wrap" style="float: left; margin: 5px 50px;">
                             <label for="first-name">First Name:</label>
-                            <input id="first-name" type="text" placeholder="Eg: Bob">
+                            <input id="first-name" type="text" placeholder="Eg: Bob" required>
                         </div>
                         <div class="wrap">
                             <label for="last-name">Last Name:</label>
-                            <input id="last-name" type="text">
+                            <input id="last-name" type="text" required>
                         </div>
                         <br>
                     </section>
@@ -38,11 +38,11 @@
                     <section>
                         <div class="wrap" style="float: left; margin: 5px 50px;">
                             <label for="email">Email:</label>
-                            <input id="email" type="email" placeholder="Bob@mail.com">
+                            <input id="email" type="email" placeholder="Bob@mail.com" required>
                         </div>
                         <div class="wrap">
                             <label for="phone-number">Phone Number:</label>
-                            <input id="phone-number" type="number">
+                            <input id="phone-number" type="number" required>
                         </div>
                         <br>
                     </section>
@@ -50,17 +50,17 @@
                     <section>
                         <div class="wrap" style="float: left; margin: 5px 50px;">
                             <label for="password">Password:</label>
-                            <input id="password" type="password">
+                            <input id="password" type="password" required>
                         </div>
                         <div class="wrap">
                             <label for="confirm-password">Confirm password:</label>
-                            <input id="confirm-password" type="password">
+                            <input id="confirm-password" type="password" required>
                         </div>
                     </section>
                 </form>
             </div>
 
-            <div>
+            <div class="foot">
                 <button type="submit">Create account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
