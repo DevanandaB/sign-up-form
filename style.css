@@ -1,7 +1,11 @@
+/* @font-face {
+    font-family: 'Norse-Bold';
+    src: url("Downloads/Norse-Bold.otf") format("opentype");
+} */
 body {
     height: 100%;
     width: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgb(237, 237, 237);
 }
 .container {
@@ -17,11 +21,28 @@ body {
     width: 33%;
     float: left;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image-container .logo {
+    height: 200px;
+    width: 100%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.image-container .logo img {
+    width: 70px;
+    height: 80px;
+    position: relative;
+
 }
 .image-container p {
-    padding-top: 600px;
-    font-size: 12px;
+    position: fixed;
+    bottom: 0; 
+    left: 180px;
+    font-size: 20px;
 }
 
 .sign-up p{
@@ -31,7 +52,8 @@ body {
     font-size: 20px;
     max-width: 1300px;
     margin: 4px;
-    font-family:  Arial, sans-serif;
+    font-family: Cambria, Times, 'Times New Roman', serif;;
+    font-weight: bold;
 }
 .sign-up .form {
     background-color: white;
@@ -60,7 +82,8 @@ button[type='submit'] {
     font-weight: 300;
     font-size: 16px;
     padding: 10px;
-    /* transition: 0.5s; */
+    transition: 0.5s;
+    cursor: pointer;
 }
 button[type='submit']:hover{
     opacity: 0.8;
@@ -73,4 +96,5 @@ button[type='submit']:hover{
 .sign-up .foot p a{
     text-decoration: none;
     color: #E30B5C;
+    font-weight: bold;
 }
