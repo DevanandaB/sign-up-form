@@ -69,6 +69,18 @@ body {
 .sign-up .wrap label {
     display: block;
 }
+.sign-up .wrap input {
+    height: 25px;
+    width: 260px;
+    border-radius: 4px;
+    border: 1px solid rgb(223, 220, 220);
+}
+.sign-up .wrap input[type="password"]:invalid {
+    border-color: red;
+}
+.sign-up .wrap input[type="password"]:valid {
+    border-color: green;
+}
 button[type='submit'] {
     margin: 20px;
     width: 175px;
