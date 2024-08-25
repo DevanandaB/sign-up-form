@@ -5,8 +5,8 @@
 body {
     height: 100%;
     width: 100vh;
-    /* overflow: hidden; */
-    background-color: rgb(237, 237, 237);
+    overflow: hidden;
+    background-color: rgb(252, 245, 245);
 }
 .container {
     position: absolute;
@@ -18,25 +18,23 @@ body {
 .image-container {    
     background-image: url("https://s1.1zoom.me/b7745/254/Raspberry_Many_Texture_Closeup_Berry_536512_600x800.jpg");
     height: 100vh;
-    width: 33%;
+    width: 30%;
     float: left;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
 }
 .image-container .logo {
-    height: 200px;
+    height: 140px;
     width: 100%;
     text-align: center;
+    font-size: 40px;
     background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 138px;
 }
 .image-container .logo img {
-    width: 70px;
-    height: 80px;
+    width: 85px;
+    height: 110px;
+    top: 10px;
     position: relative;
-
 }
 .image-container p {
     position: fixed;
@@ -61,6 +59,7 @@ body {
     height: 250px;
     font-size: 18px;
     margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .sign-up .form p {
     top: 5px;
@@ -84,6 +83,7 @@ button[type='submit'] {
     padding: 10px;
     transition: 0.5s;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button[type='submit']:hover{
     opacity: 0.8;
