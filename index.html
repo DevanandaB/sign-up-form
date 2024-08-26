@@ -47,28 +47,32 @@
                         </div>
                         <div class="wrap">
                             <label for="phone-number">Phone Number</label>
-                            <input id="phone-number" type="number" required>
+                            <input id="phone-number" type="number">
                         </div>
                         <br>
                     </section>
 
                     <section>
                         <div class="wrap" style="float: left; margin: 5px 50px;">
-                            <label for="password">Password</label>
-                            <input id="password" type="password" minlength="8" maxlength="20" required>
+                            <label for="password">Password <span>(Should contain between 8 to 18 charcters)</span></label>
+                            <input id="password" type="password" minlength="8" maxlength="18" required>
                         </div>
                         <div class="wrap">
                             <label for="confirm-password">Confirm password</label>
-                            <input id="confirm-password" type="password" required>
+                            <input id="confirm-password" type="password" minlength="8" maxlength="18" required>
                         </div>
                     </section>
+                    <div class="foot">
+                        <button type="submit" value="submit">Create account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
                 </form>
             </div>
 
-            <div class="foot">
+            <!-- <div class="foot">
                 <button type="submit" value="submit">Create account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
-            </div>
+            </div> -->
             
         </div>
     </div>
